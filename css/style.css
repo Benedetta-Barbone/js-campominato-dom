@@ -14,11 +14,27 @@ section#griglia{
 }
 
 section#griglia > article.celle {
-    width: calc((800px / 10) - 4px);
-    height: calc((800px / 10) - 4px);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+section#griglia > article.celle.facile{
+    width: calc((800px / 10) - 4px);
+    height: calc((800px / 10) - 4px);
+}
+
+section#griglia > article.celle.medio{
+    width: calc((800px / 9) - 4px);
+    height: calc((800px / 9) - 4px);
+}
+
+section#griglia > article.celle.difficile{
+    width: calc((800px / 7) - 4px);
+    height: calc((800px / 7) - 4px);
 }
 
 section#griglia > article.celle.active{
