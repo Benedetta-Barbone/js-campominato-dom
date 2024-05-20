@@ -1,14 +1,19 @@
 body{
-    background-color: blue;
+    background-color: rgb(211, 211, 226);
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
 }
 
 section#griglia{
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
 }
@@ -17,32 +22,31 @@ section#griglia > article.celle {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blueviolet;
 }
-
-
 
 
 section#griglia > article.celle.facile{
-    width: calc((800px / 10) - 4px);
-    height: calc((800px / 10) - 4px);
+    width: calc((500px / 10) - 5px);
+    height: calc((500px / 10) - 5px);
 }
 
 section#griglia > article.celle.medio{
-    width: calc((800px / 9) - 4px);
-    height: calc((800px / 9) - 4px);
+    width: calc((500px / 9) - 5px);
+    height: calc((500px / 9) - 5px);
 }
 
 section#griglia > article.celle.difficile{
-    width: calc((800px / 7) - 4px);
-    height: calc((800px / 7) - 4px);
+    width: calc((500px / 7) - 5px);
+    height: calc((500px / 7) - 5px);
 }
 
 section#griglia > article.celle.active{
-    background-color: aqua;
+    background-color: rgb(147, 110, 110);
 }
 
 section#griglia, section#griglia > article.celle{
-    border: 2px solid white;
+    border: 2.5px solid black;
 }
 
 section#griglia > article.celle > span.contenuto{
@@ -54,8 +58,10 @@ section#griglia > article.celle.active > span.contenuto{
 }
 
 div.play{
+    width: 200px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 3rem;
 }
 
