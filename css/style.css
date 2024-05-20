@@ -45,6 +45,10 @@ section#griglia > article.celle.active{
     background-color: rgb(147, 110, 110);
 }
 
+section#griglia > article.celle.bomba{
+    background-color: rgb(177, 16, 16);
+}
+
 section#griglia, section#griglia > article.celle{
     border: 2.5px solid black;
 }
